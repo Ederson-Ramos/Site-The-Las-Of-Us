@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(84, 92, 30);
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 27px;
+}
+
+p,
+ul li,
+ul li a,
+div form input,
+div form textarea, 
+button {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(201, 184, 162);
+}
+
+header {
+    background-image: linear-gradient(to left, #254f32, rgb(9, 33, 18));
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 0;
+}
+
+header .container nav li {
+    display: inline;
+    margin-left: 10px;
+}
+
+header .container nav li a {
+    text-decoration: none;
+}
+
+header .container nav li a:hover {
+    color: aliceblue;
+}
+
+section {
+    background-color: #094033;
+}
+
+section .container img {
+    height: 500px;
+}
+
+section .container {
+    display: flex;
+    padding-top: 16px;
+}
+
+section .container div #personagens {
+    height: 90px;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+section .container #nowrap {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+section .container #paddingtop {
+    padding-top: 44px;
+}
+
+section .container p {
+    padding-top: 15px;
+}
+
+section .container div h2, h3 {
+    margin: 10px 0;
+}
+
+section .container div {
+    padding: 0;
+}
+
+.sessao2 .container {
+    padding: 0;
+}
+
+form input {
+    display: block;
+    padding: 8px 0;
+    margin-bottom: 7px;
+    width: 320px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid;
+}
+
+form textarea {
+    display: block;
+    padding: 8px 0px;
+    margin: 10px 0;
+    width: 320px;
+    resize: none;
+    height: 180px;
+    background: transparent;
+    border-width: 2px;
+    border-color: rgb(201, 184, 162);
+}
+
+
+form input:focus,
+form textarea {
+    outline: none;
+}
+
+form button {
+    width: 320px;
+    padding: 12px;
+    background-color: rgb(22, 39, 15);
+    color: rgb(201, 184, 162);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #17471c;
+}
+
+.sessao2 .container div h2 {
+    padding-bottom: 25px;
+    margin: 0;
+}
+
+.sessao2 .container div div h3 {
+    margin-top: 0;
+}
+
+.sessao2 .container .curiosidades {
+    display: block;
+    margin-left: 150px;
+}
+
+.sessao2 .container .curiosidades h3 {
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.sessao2 .container .curiosidades ul li {
+    padding-bottom: 8px;
+}
+
+.sessao2 .container .developer {
+    display: block;
+    margin-left: 150px;
+}
+
+.sessao2 .container .developer h3 {
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.sessao2 .container .developer img {
+    margin: 0;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.sessao2 .container #alinhar {
+    display: flex;
+}
+
+.sessao2 {
+    padding-bottom: 16px;
+}
+
+footer {
+    background-color: rgb(9, 33, 18);
+}
+
+footer p {
+    padding: 18px 0;
+}
